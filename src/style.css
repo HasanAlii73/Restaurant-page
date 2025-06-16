@@ -1,0 +1,116 @@
+body{
+    color: white;
+    background-color: rebeccapurple;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: white;
+    color: rebeccapurple;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 30px;
+}
+h1{
+    font-size: 40px;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 18px;
+    background-color: yellow;
+    color: rebeccapurple;
+    font-weight: 900;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rebeccapurple;
+    color: yellow;
+    transition: background-color 0.4s ease-in-out;
+}
+button:active{
+    transform: scale(0.98);
+}
+.navBtn{
+    padding-inline: 60px;
+}
+.headerBtns{
+    display: flex;
+    justify-content: end;
+}
+#content{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+.contentContainer{
+    width: 50vw;
+}
+.imgContainer{
+    padding-top: 40px;
+}
+
+/* ==== */
+
+.menue{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dishes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.dish{
+    border: 1px solid white;
+    height: 200px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.dishName{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.dishDesc, .dishIngs{
+    color: #b4b4b4;
+}
+
+/* ==== */
+
+.about{
+    color: black;
+    background-color: #eee;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 1000px;
+}
+.aboutDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.aboutHeader{
+    border-bottom: 4px solid rebeccapurple;
+    font-size: 30px;
+}
+.aboutDesc{
+    color: #555555;
+}
