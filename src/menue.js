@@ -4,7 +4,7 @@ export function menuePageLoad() {
 
     const div = document.createElement("div");
     div.className = "contentContainer";
-    div.innerHTML = `<h1>Menue</h1>
+    div.innerHTML = `<h1>Menu</h1>
         <div class="dishes">
             <div class="dish dish1">
                 <div class="dishName">Classic Chicken Shawarma Wrap</div>
